@@ -12,10 +12,10 @@ An interactive **Power BI dashboard** that explores **18 months of Spotify Globa
 ![Home Dashboard](ss/1)
 
 ### 📊 Overview
-> *Add Overview page screenshot here*
+![Overview Dashboard](ss/2)
 
 ### 🎵 Songs
-> *Add Songs page screenshot here*
+![Songs Dashboard](ss/3)
 
 ---
 
