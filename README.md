@@ -170,27 +170,6 @@ The dashboard includes **20+ custom DAX measures**, including:
 - Dynamic album artwork
 - Professional color palette
 
----
-
-# 📷 Dashboard Screenshots
-
-## Home
-
-![Home](images/Home.png)
-
----
-
-## Overview
-
-![Overview](images/Overview.png)
-
----
-
-## Songs
-
-![Songs](images/Songs.png)
-
----
 
 # 🚀 Project Highlights
 
