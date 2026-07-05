@@ -1,50 +1,217 @@
-#Spotify Global Top 50 Dashboard
+# 🎵 Spotify Global Top 50 Dashboard
 
-Chart Trends & Song Performance (May 2023 – Nov 2024)
+**Chart Trends & Song Performance (May 2023 – Nov 2024)**
 
-An interactive Power BI dashboard exploring 18 months of daily Spotify Global Top 50 chart data — tracking which songs and artists dominated, how popularity shifted over time, and what separates a song that charts often from one that charts high.
+An interactive **Power BI dashboard** that explores **18 months of Spotify Global Top 50 chart data**, revealing which songs and artists dominated the charts, how popularity evolved over time, and what factors distinguish long-charting songs from high-ranking hits.
 
-Show Image
+---
 
-What's inside
+## 📸 Dashboard Preview
 
-The dashboard has three pages, each built around a different question:
+### 🏠 Home
+> *Add Home page screenshot here*
 
-🏠 Home
+### 📊 Overview
+> *Add Overview page screenshot here*
 
-A landing page introducing the dataset and navigation.
+### 🎵 Songs
+> *Add Songs page screenshot here*
 
-📊 Overview
+---
 
-The big picture — KPI cards, top artists and songs by days charted, album type split, explicit content share, and an average-popularity trend across the full 18-month window.
+# 📌 Project Overview
 
-🎵 Songs
+This dashboard was built to analyze the daily Spotify Global Top 50 charts from **May 2023 to November 2024**. It provides interactive insights into artist performance, song popularity, chart longevity, album characteristics, and listening trends.
 
-A song-level deep dive. Pick any song from the slicer and the whole page updates: cover art, release year, best rank, average popularity, and a day-by-day position trend showing exactly how that song moved up and down the chart over time.
+The report is designed with a clean and modern interface, allowing users to explore chart performance through interactive filters, KPIs, and drill-down analysis.
 
-Show Image
+---
 
-Key insights
+# 📊 Dashboard Pages
+
+## 🏠 Home
+
+- Dashboard introduction
+- Project summary
+- Navigation buttons
+- Custom UI design
+
+---
+
+## 📈 Overview
+
+Provides a high-level summary of the entire dataset.
+
+### KPIs
+
+- Total Songs
+- Total Artists
+- Average Popularity
+- Explicit Song Percentage
+- Average Chart Position
+
+### Visualizations
+
+- Top Artists by Days Charted
+- Top Songs by Days Charted
+- Album Type Distribution
+- Explicit vs Non-Explicit Songs
+- Popularity Trend Over Time
+- Daily Chart Activity
+
+---
+
+## 🎵 Songs Analysis
+
+A detailed song-level analysis where users can select any song and instantly view:
+
+- Album Cover
+- Artist
+- Release Year
+- Album Type
+- Peak Chart Position
+- Average Popularity
+- Duration
+- Explicit Status
+- Position Trend Over Time
+
+Interactive slicers allow users to compare individual songs across the full chart history.
+
+---
+
+# 💡 Key Insights
+
+- 🎵 **794** unique songs appeared in the Spotify Global Top 50.
+- 🎤 **343** unique artists were represented.
+- 🏆 **"I Wanna Be Yours" – Arctic Monkeys** remained on the chart for **548 days**, making it the longest-charting song, despite peaking at only **#11**.
+- 🌞 **"Cruel Summer" – Taylor Swift** achieved the strongest balance of longevity and chart success, appearing for **517 days** while reaching **#2**.
+- ⭐ Taylor Swift accumulated the highest total chart presence among all artists.
+- 🔥 Approximately **40.2%** of all chart entries were marked as explicit.
+- 💿 Album tracks accounted for roughly **62%** of chart entries, while singles represented **38%**.
+
+---
+
+# 📂 Dataset
+
+**Source**
+
+Spotify Global Top 50 Daily Chart
+
+**Time Period**
+
+18 May 2023 — 27 November 2024
+
+**Rows**
+
+27,800
+
+**Granularity**
+
+One row represents one song appearing in the Global Top 50 on a specific day.
+
+### Dataset Features
+
+- Song Name
+- Artist
+- Chart Position
+- Popularity Score
+- Album Name
+- Album Type
+- Explicit Flag
+- Release Date
+- Duration
+- Album Cover URL
+- Date
+
+---
+
+# 🛠 Tools & Technologies
+
+| Tool | Purpose |
+|-------|----------|
+| **Power BI Desktop** | Dashboard development & data visualization |
+| **Power Query** | Data cleaning & transformation |
+| **DAX** | Custom measures, KPIs & calculations |
+| **Figma** | Dashboard wireframe & UI mockups |
+| **Canva** | Dashboard assets & title graphics |
+| **GitHub** | Version control & portfolio hosting |
+
+---
+
+# 📈 DAX Measures
+
+The dashboard includes **20+ custom DAX measures**, including:
+
+- Total Songs
+- Total Artists
+- Average Popularity
+- Average Duration
+- Best Rank
+- Worst Rank
+- Explicit Songs
+- Explicit %
+- Top 10 Songs
+- Album Statistics
+- Popularity KPIs
+- Ranking Measures
+
+---
+
+# 🎯 Dashboard Features
+
+- Interactive slicers
+- Cross-filtering
+- Dynamic KPI Cards
+- Custom tooltips
+- Drill-down analysis
+- Song trend analysis
+- Responsive page navigation
+- Modern Spotify-inspired UI
+- Dynamic album artwork
+- Professional color palette
+
+---
+
+# 📷 Dashboard Screenshots
+
+## Home
+
+![Home](images/Home.png)
+
+---
+
+## Overview
+
+![Overview](images/Overview.png)
+
+---
+
+## Songs
+
+![Songs](images/Songs.png)
+
+---
+
+# 🚀 Project Highlights
+
+✔ Interactive Power BI Dashboard
+
+✔ Real-world Spotify Dataset
+
+✔ Advanced DAX Calculations
+
+✔ Professional Dashboard UI
+
+✔ Interactive Navigation
+
+✔ Dynamic KPIs
+
+✔ Song-Level Drill Down
+
+✔ Artist Performance Analysis
+
+✔ Portfolio-Ready Business Intelligence Project
 
 
-794 unique songs and 343 artists cycled through the Global Top 50 across the period.
-"I Wanna Be Yours" (Arctic Monkeys) is the longest-charting song at 548 days — but never cracked the top 10, peaking at #11.
-"Cruel Summer" (Taylor Swift) is the rare song that charts both often (517 days) and high (peaked at #2, averaging position ~16) — the strongest combination in the dataset.
-Taylor Swift dominates total days charted by a wide margin, well ahead of every other artist.
-40.2% of all chart entries were explicit tracks.
-Albums outnumber singles roughly 62% to 38% among charting tracks.
 
 
-Data
-
-Source: daily Spotify Global Top 50 snapshots, spotify-top-50-world.csv — one row per song per day it appeared in the chart, covering 2023-05-18 to 2024-11-27 (27,800 rows).
-
-Fields include song, artist, chart position, popularity score, duration, album type, explicit flag, release date, and album cover art URL.
-
-Tools
-
-
-Power BI Desktop — data modeling, DAX measures, and all visuals
-DAX — 20+ custom measures covering totals, averages, rankings, and explicit content share
-Figma — custom UI mockups and layout design used as visual references for the dashboard
-Canva — supporting graphics and the intro/title design
